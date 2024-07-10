@@ -44,6 +44,7 @@ justify-content: center;
 align-items: center;
 margin-top: 20px;
 margin-bottom: 30px;
+padding: 20px 16px;
 }
 
 .banner-text-container{
@@ -56,6 +57,7 @@ margin-bottom: 30px;
 }
 
 .banner-text-container h2{
+font-family: "Azeret Mono", monospace;    
 color: rgb(13, 19, 33);
 font-size: 32px;
 font-weight: 800;
@@ -70,7 +72,6 @@ width: 852px;
 height: 52px;
 color: rgb(13, 19, 33);
 font-size: 16px;
-
 text-align: center;
 flex-direction: column;
 }
@@ -84,12 +85,258 @@ align-items: center;
 padding:12px 28px;
 border-radius: 8px;
 background:rgb(13, 19, 33);
+margin-top: 18px;
+
+}
+
+
+/* main section stylee css  */
+
+.second-container{
+/* max-width: 1440px; */
+/* height: 995px; */
+display: flex;
+margin: 0 auto;
+justify-content: center;
+margin-top: 40px;
+border-radius: 16px;
+background: rgba(13, 19, 33, 0.02);
+}
+
+.second-content{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ text-align:center;
+ margin-top: 40px;
+ margin-right: 35px;
+ margin-left: 35px;
+ margin: bottom 40px;
+ 
+}
+
+.second-content h4{
+color: rgb(13, 19, 33);
+font-size: 32px;
+font-weight: 800;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 20px;
+}
+
+.second-content p{
+color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+letter-spacing: 0%; 
+text-align: center;
+}
+
+.web-dev-container{
+width: 946px;
+height: 336px;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400
+}
+.web-dev-content-text{
+width: 477px;
+height: 220px
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+}
+
+.web-dev-content-text h3{
+color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 700;
+margin-bottom: 15px;
+}
+.web-dev-content-text p{
+ color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+margin-bottom: 15px;
+}
+.web-dev-content-text btn1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.first-image{
+ width: 259.56px;
+height: 217.01px;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+
+
+/* .second-content { */
+    display: flex;
+}
+
+.web-dev-container2{
+ width: 946px;
+height: 336px;
+/* display: flex; */
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 48px;
+}
+
+.second-image{
+width: 223.2px;
+height: 208.85px;
+
+}
+
+.web-dev-content-text2{
+width: 477px;
+height: 220px
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+}
+.web-dev-content-text2 h4{
+color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 700;
+margin-bottom: 15px;
+}
+.web-dev-content-text2 p{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+margin-bottom: 15px;
+}
+.web-dev-content-text btn2{
+    width: 110px;
+   height: 24px
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding: 12px 20px 12px 20px;
+   }
+   
+   .web-dev-container3{
+    width: 850px;
+    height: 240px;
+   /* display: flex; */
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: centre;
+   padding: 48px;
+   }
+
+   .web-dev-content-text3{
+    width: 477px;
+    height: 220px
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    }
+
+.web-dev-container3 h3{
+color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 700;
 margin-top: 20px;
-
-}
-.text-primary{
-    color: white;
 }
 
+.web-dev-content-text3 p {
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+ font-weight: 400;
+ margin-bottom: 20px;
+
+ }
+
+ .web-dev-content-text3 btn3{
+    width: 110px;
+   height: 24px
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding: 12px 20px 12px 20px;
+   }
+
+
+
+
+
+
+.
+/* main body will be here  */
+.inspiration-content{;
+width: 1140px;
+height: 775px;
+left: 148px;
+right: 152px;
+/* display: flex; */
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+
+}
+
+.inspiration-content h3 {
+display: flex;
+flex-direction: column;
+text-align: center;
+font-size: 28px;
+margin-top: 70px;
+margin-bottom: 20px;
+font-family: Azeret Mono;
+justify-content: center;
+}
+
+.inspiration-content p {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+font: size 16px;
+margin: top 28px;
+
+
+}
+
+.video{
+ width: 1140px;
+height: 775px;
+left: 148px;
+right: 152px;
+top: 2340px;
+bottom: 2130px;
+display: flex;
+/* flex-direction: column; */
+justify-content: center;
+align-items:center;
+padding: 32px;
+margin:50%
+box-sizing: border-box;
+/* border-radius: 16px; */
+
+
+    
+
+}
 
 
