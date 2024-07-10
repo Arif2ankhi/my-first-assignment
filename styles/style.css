@@ -340,9 +340,16 @@ margin-top: 20px;
 .skills-container{
     display:flex;
     gap: 20px;
+
     
 }
 
+.skills{
+    width: 60%;
+    margin-left: 20%;
+    height:30%
+    margin: 0 auto;
+}
 .skill{
  width: 1140px;
 height: 463px;
@@ -358,5 +365,53 @@ border-radius: 16px;
 background: rgba(255, 76, 30, 0.05);
 border-radius: 16px;
 background: rgba(255, 76, 30, 0.05);
+}
+
+/* footer starts here  */
+.support-section-container{
+    height: 314px;
+    width: 90%;
+    margin: 0 auto;
+    border:2px solid red;
+    background-image:url('/assets/handshake.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+    .support-section-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.support-content p {
+    margin-bottom: 30px;
+    color: white;
+    margin-left: 5%;
+}
+
+.support-content h1{
+    color: white;
+    font-weight: bold;
+    margin-left: 18%;
+
+}
+
+
+.support-content input {
+    width: 250px;
+    height: 60px
+border:none;
+color: white;
+}
+
+.submit-btn{
+ width: 180px;
+height: 24px;
+border: none;
+border-radius: 2px;
 
 }
