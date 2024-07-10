@@ -1,18 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 .azeret-mono-normal {
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
     font-style: normal;
 }
-
-
 /* nav styles */
 nav{
     display: flex;
@@ -30,14 +27,12 @@ nav{
     height: 100%;
     
 }
-
 .banner-content{
 width: 100%;
 height: 60vh;
 background-image: url('../assets/Hero-bg.png');
 background-position: center;
 }
-
 .banner-image{
 display: flex;
 justify-content: center;
@@ -48,45 +43,32 @@ padding: 20px 16px;
 }
 
 .banner-text-container{
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+ margin-bottom: 30px;
 }
 
-.banner-text-container h2{
-font-family: "Azeret Mono", monospace;    
+.banner-text-container h2{   
 color: rgb(13, 19, 33);
-font-size: 32px;
+font-size: 48px;
 font-weight: 800;
-letter-spacing: 0%;
 text-align: center;
-margin-bottom: 30px;
-
 }
+
 .banner-text-container p{
-position: static;
-width: 852px;
-height: 52px;
+
 color: rgb(13, 19, 33);
 font-size: 16px;
 text-align: center;
-flex-direction: column;
 }
 .btn-primary{
-font-weight: bold;
-color:rgb(255, 255, 255);
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding:12px 28px;
+color: rgb(255, 255, 255);
+ font-size: 20px;
+font-weight: 600;
+text-align: center;
+padding: 12px 28px;
 border-radius: 8px;
-background:rgb(13, 19, 33);
-margin-top: 18px;
-
+background: rgb(13, 19, 33);
+margin-left: 45%;
+margin-top: 20px;
 }
 
 
@@ -112,7 +94,7 @@ background: rgba(13, 19, 33, 0.02);
  margin-right: 35px;
  margin-left: 35px;
  margin: bottom 40px;
- 
+
 }
 
 .second-content h4{
@@ -142,7 +124,8 @@ font-weight: 400
 }
 .web-dev-content-text{
 width: 477px;
-height: 220px
+height: 220px;
+display:flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: flex-start;
@@ -230,7 +213,7 @@ margin-bottom: 15px;
    align-items: center;
    padding: 12px 20px 12px 20px;
    }
-   
+
    .web-dev-container3{
     width: 850px;
     height: 240px;
@@ -277,66 +260,103 @@ font-size: 16px;
    }
 
 
+/* shared class */
 
+.primary-btn{
+    font-weight: bold;
+    text-decoration-line: underline;
+    font-size: 16px;
+    margin: 24px 0px;
+}
 
 
 
 .
 /* main body will be here  */
-.inspiration-content{;
-width: 1140px;
-height: 775px;
-left: 148px;
-right: 152px;
-/* display: flex; */
-flex-direction: column;
-justify-content: flex-start;
-align-items: center;
-padding: 0px;
+
+
+/* youtube section */
+
+.youtube{
+    width: 1140px;
+    height: 777px;
+    border: 2px solid red;
+    margin: 0 auto;
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+
+
 
 }
 
-.inspiration-content h3 {
-display: flex;
-flex-direction: column;
-text-align: center;
-font-size: 28px;
-margin-top: 70px;
-margin-bottom: 20px;
+
+.title{
+color: rgb(13, 19, 33);
 font-family: Azeret Mono;
-justify-content: center;
-}
-
-.inspiration-content p {
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 0px;
-font: size 16px;
-margin: top 28px;
-
-
+font-size: 32px;
+text-align: center;
+border-bottom: 30px;
 }
 
 .video{
- width: 1140px;
-height: 775px;
-left: 148px;
-right: 152px;
-top: 2340px;
-bottom: 2130px;
-display: flex;
-/* flex-direction: column; */
-justify-content: center;
-align-items:center;
-padding: 32px;
-margin:50%
-box-sizing: border-box;
-/* border-radius: 16px; */
+ color:rgb(13, 19, 33)
+ font-size: 16px;
+ text-align: center;
+ margin-bottom 20px;
+ margin-top:20px
 
+ }
 
-    
+ .programming-hero{
+text-align: center;
+ margin-bottom 20px;
+ margin-top:20px
+ margin: bottom 50%;
+ margin-top:40px;
+ }
+
+/* target starts here */
+
+.skills-title{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+text-align: center;
+margin top: 100px;
+margin-bottom:20;
+}
+
+.section-description{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+text-align: center;
+margin-top: 20px;
 
 }
 
 
+.skills-container{
+    display:flex;
+    gap: 20px;
+    
+}
+
+.skill{
+ width: 1140px;
+height: 463px;
+ padding: 30px;
+ border-radius: 5px;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skills-container HTML{
+width: 284px;
+height: 220px;
+border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+
+}
